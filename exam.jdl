@@ -1,0 +1,24 @@
+application { 
+  config {
+    baseName Ilaadeegination
+    applicationType monolith
+    authenticationType oauth2
+    packageName com.iIaadeeg.app
+    prodDatabaseType postgresql
+    testFrameworks [cypress]
+    reactive true
+    buildTool gradle
+    clientFramework react
+    serviceDiscoveryType consul
+  }
+  entities *
+}
+
+/**  Entities START */
+
+
+entity Supervisor {
+    Name String,
+    Gender String ,
+    Telephone String,
+}

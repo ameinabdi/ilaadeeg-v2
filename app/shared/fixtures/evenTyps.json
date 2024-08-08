@@ -1,0 +1,38 @@
+{
+    "Types": [
+        {
+            "ID": "1",
+             "Type": "Conference"
+        },
+        {
+            "ID": "2",
+            "Type": "Dinner"
+        },
+        {
+            "ID": "3",
+            "Type": "Competition"
+        },
+        {
+            "ID": "4",
+            "Type": "Meeting"
+        },
+        {
+            "ID": "5",
+            "Type": "Party"
+        },
+        {
+            "ID": "6",
+            "Type": "Seminar"
+        },
+        {
+            "ID": "7",
+            "Type": "Tour"
+        },
+        {
+            "ID": "8",
+            "ClassName": "8aad",
+            "Type": "Wedding"
+        }
+        
+    ]
+}

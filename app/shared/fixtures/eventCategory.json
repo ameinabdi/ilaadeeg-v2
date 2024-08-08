@@ -1,0 +1,73 @@
+{
+    "Categories": [
+        {
+            "ID": "1",
+             "Category": "Business"
+        },
+        {
+            "ID": "2",
+            "Category": "Religion"
+        },
+        {
+            "ID": "3",
+            "Category": "Technology"
+        },
+        {
+            "ID": "4",
+            "Category": "Holiday"
+        },
+        {
+            "ID": "5",
+            "Category": "Fashion"
+        },
+        {
+            "ID": "6",
+            "Category": "Entertainment"
+        },
+        {
+            "ID": "7",
+            "Category": "Food"
+        },
+        {
+            "ID": "8",
+            "Category": "Government"
+        },
+        {
+            "ID": "8",
+            "Category": "Community"
+        },
+        {
+            "ID": "8",
+            "Category": "Education"
+        },
+        {
+            "ID": "8",
+            "Category": "Family"
+        }
+        ,
+        {
+            "ID": "8",
+            "Category": "Politics"
+        },
+        {
+            "ID": "8",
+            "Category": "Health"
+        },
+        {
+            "ID": "8",
+            "Category": "Music"
+        },
+        {
+            "ID": "8",
+            "Category": "Performing"
+        },
+        {
+            "ID": "8",
+            "Category": "Travel"
+        },
+        {
+            "ID": "8",
+            "Category": "Others"
+        }
+    ]
+}

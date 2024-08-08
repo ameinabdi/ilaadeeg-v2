@@ -1,0 +1,31 @@
+{
+  "angularJSSuffix": "",
+  "applications": ["Ilaadeegination"],
+  "changelogDate": "20230417110929",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "supervisor",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telephone",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "javadoc": "Entities START",
+  "jpaMetamodelFiltering": false,
+  "name": "Supervisor",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no",
+  "skipClient": false
+}

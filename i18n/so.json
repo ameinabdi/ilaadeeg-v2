@@ -1,0 +1,253 @@
+{
+   "translation": {
+     "menu":{
+        "home": "Boga hore",
+        "support": "Caawin",
+        "setting": "Sitting",
+        "privacy": "Xeerka iyo Siyaasadeena",
+        "booking": "Balan",
+        "term": "Shuruudaha iyo Xeerkeena",
+        "logout": "Ka bax",
+        "post":"Posti gayga"
+     },
+     "bottomTab":{
+      "Home":"Guri",
+      "Workers":"Shaqale",
+      "Support":"Caawin",
+      "Account":"Akoonkaaga"
+   },
+     "screen":{
+        "intro":{
+           "language":"Badel luuqada",
+           "welcome":" Iibi, Iibso, Hell",
+           "sell":"iibi wax kasta oo aad iibinaysid",
+           "buy":"baadh oo iibso waxaad u baahantahay",
+           "book":"ka dalbo adeega yaga Xirfad laha aad rabtid",
+           "GetStarted":"Biloow",
+           "ContinueGuest":"Marti ahaan kusoo booqo",
+           "registerAsBusiness":"Koontada Ganacsatada"
+        },
+        "registration":{
+           "title":"Is diiwaan gelin",
+           "subtitle":"Geli Taleefan No si aad hore ugu socotid, waxaan kusoo diraynaa koodhka xaqiijinta ee OTP",
+           "continue":"Hore usoco"
+        },
+        "verification":{
+           "subtitle":"Geli 4 Lambar ee kusoo dhacay",
+           "footerDescription":"Hadii aadan Helin koodh ka xaqiijinta mar labaad dalbo",
+           "verify":"Xaqiiji",
+           "resend":"Dib u dir",
+           "editTitle":"Sax taleefan lambarkaaaga",
+           "update":"Cusboonaysii"
+
+        },
+        "createProfile":{
+           "title":"Abuuro Profile",
+           "firstName":"Magacaaga",
+           "lastName":"Magaca Aabahaa",
+           "dob":"Taariikhda Dhalashada",
+           "email":"Email",
+           "finished":"Dhamaad",
+           "address":"Adresskaaga",
+           "editTitle":"Sax taleefan lambarkaaaga",
+           "update":"Cusboonaysii"
+        },
+        "setupPin":{
+           "title":"Samayso Pin Lambar"
+        },
+        "home":{
+           "title":"Sarif",
+           "chargeFee":"Khidmada",
+           "TotalChargeFee":"Totalka khidmada",
+           "CommissionIs":"koomishinku waa",
+           "post":"Daabac",
+           "viewall":"Fiiri dhamaan"
+        },
+        "customerAccount":{
+           "YourAccounts":"Koontadaada",
+           "account":"Koonto",
+           "YouSend":"Waad Dirtay",
+           "AccountType":"Nooca Koontada",
+           "AccountNumber":"Lambarka Koontada",
+           "SaveAccount":"kaydi Koontada"
+          
+
+        },
+        "transaction":{
+           "title":"Dhaq dhaqaaq",
+           "Total":"Total",
+           "account":"Koonto",
+           "Detail":"Faah faahin",
+           "AccountType":"Nooca Koontada",
+           "AccountNumber":"lambarka koontada",
+           "SaveAccount":"Kaydi koontada"
+        },
+        "business":{
+           "city":"Magaalo",
+           "Total":"Total",
+           "address":"Address",
+           "searchCategory":"Baadh qayb ka mida qaybaha",
+           "category":"Qayb",
+           "map":"Map",
+           "call":"Wac",
+           "products":"Alaabo",
+           "review":"Dib u fiiri"
+           
+        },
+        "profile":{
+           "title":"Profile kayga",
+           "update":"Cusboonaysii xogtaada asaasiga ah",
+           "change":"Bedel Pin kaaga",
+           "Detail":"faah faahin",
+           "AccountType":"Nooca koontada",
+           "AccountNumber":"Lambarka koontada",
+           "SaveAccount":"Kaydi koontada"
+        },
+        "worker":{
+           "title":"Qaybta xirfad la yaasha",
+           "notFound":"Lama helin xirfadle",
+           "listTitle":"Listiga xirfadlayaasha",
+           "profileTitle":"Profile",
+           "bookingNow":"hada dalbo",
+           "salary":"Lacagta uu ku shaqaynayo",
+           "rate":"Sicirka",
+           "experience":"Khibradda",
+           "gender":"Jinsiga",
+           "age":"Da'da",
+           "resume":"CV",
+           "about":"Ku saabsan",
+           "review":"Dib u fiiri",
+           "yourAddress":"Adress kaaga",
+           "writeYourAddress":"Qor adress kaaga",
+           "bookingDate":"Taariikhda balanta",
+           "save":"kaydi",
+           "booking":"Dalab"
+
+        },
+        "search":{
+           "title":"Raadi",
+           "searchbar":"Raadi shay",
+           "sortBy":"u kala saar",
+           "category":"Qayb",
+           "subCategory":"Qayb hoosaad",
+           "search":"Raadi",
+           "clearAll":"Masax dhamaan"
+
+        },
+        "product":{
+           "newTitle":"Samee alaab cusub",
+           "editTitle":"wax ka badal posti gaaga",
+           "title":"Ciwaan",
+           "description":"Sharaxaad",
+           "category":"Qayb",
+           "subCategory":"Qayb Hoosaad",
+           "currency":"Lacag",
+           "price":"Qiimo",
+           "location":"Goobta",
+           "address":"Adresska goobta",
+           "photos":"Sawir",
+           "contactInformation":"Messha lagaala soo xidhiidhayo",
+           "contactName":"Magacaaga ",
+           "ContactEmail":"Emaylkaaga",
+           "ContactTelephone":"Taleefanakaaga",
+           "deletePost":"Tirtir postigaaga",
+           "payPostFee":"Bixi khidmada",
+           "time":"Saacad",
+           "sold":"La iibiyay"
+        },
+        "post":{
+           "title":"Posti gayga",
+           "description":"Sharaxaad",
+           "category":"Qayb",
+           "subCategory":"Qayb hoosaad",
+           "currency":"Lacag",
+           "price":"Qiimaha",
+           "address":"Adresska goobta",
+           "photos":"Sawiro",
+           "contactInformation":"Messha lagaala soo xidhiidhayo",
+           "contactName":"Magacaaga",
+           "ContactEmail":"Emailkaaga",
+           "ContactTelephone":"Taleefankaaga",
+           "deletePost":"Tirtir postigaaga",
+           "payPostFee":"Bixi khidmada",
+           "postads":"Samee xayaysiis"
+        },
+        "postAds":{
+            
+         "add":{
+            "button":"Save",
+            "title":"Post Ads"
+         },
+         "feilds":{
+            "title":"Ciwaan",
+            "description":"Faahfaahin",
+            "category":"Qayb",
+            "subcategory":"Qayb hoosaad",
+            "currency":"Lacag",
+            "price":"Qiimaha",
+            "location":"Goobta",
+            "address":"Adresska goobta",
+            "photos":"Sawiro",
+            "gallery":"Sawiro",
+            "contactInformation":"Contact Information",
+            "contactName":"Magacaaga",
+            "contactEmail":"Emailkaaga",
+            "contactTelephone":"Taleefankaaga",
+            "deletePost":"tir boostada",
+            "payPostFee":"bixi lacagta boostada",
+            "postads":"Alaab",
+            "type":"Nooca",
+            "bed":"Hurdada",
+            "living":"Fadhiga",
+            "toilet":"Suuliga",
+            "size":"Cabirka",
+            "mark":"Nooca Gaadhiga",
+            "model":"Modeelka",
+            "millage":"masaafada",
+            "condition":"Condition"
+         }
+      },
+        "payment":{
+           "title":"Qaabka lacag bixinta",
+           "subscribeAsFree":"U rukomo si bilaasha ah",
+           "successfully":"Waa bixisay lacagtii",
+           "confirmPayment":"Xaqiiji lacag bixinta",
+           "paymentPhone":"Taleefanka lacag bixinta"
+           
+
+        },
+        "feedback":{
+           "title":"Dib u eegidii u danbaysay",
+           "rating":"Qiimayn",
+           "yourFeedback":"Talo Bixintaaad",
+           "save":"kaydi",
+           "paymentPhone":"taleefanka lacag bixinta",
+           "newTitle":"Talo bixin cusub",
+           "create":"Abuur"
+
+
+        },
+        "coupon":{
+           "title":"Ciwaan",
+           "description":"Sharaxaad",
+           "link":"Link"
+
+        },
+        "category":{
+           "title":"Listiga qaybaha",
+           "description":"Sharaxaad",
+           "link":"Link"
+
+        },
+        "privacy":{
+           "title":"Xeer siyaasadadeedka"
+        },
+        "support":{
+           "title":"Caawin ma ubaahantahay?"
+        },
+        "term":{
+           "title":"Shuruudaha iyo Xeerarka"
+        }
+     }
+   }
+ }

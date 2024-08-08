@@ -1,0 +1,275 @@
+{
+    "translation": {
+      "menu":{
+         "home": "Home",
+         "support": "Support",
+         "setting": "Setting",
+         "privacy": "Privacy & Policy",
+         "booking": "Booking",
+         "term": "Term & Condition",
+         "logout": "Log Out",
+         "post":"My Post"
+      },
+      "bottomTab":{
+         "Home":"Home",
+         "Workers":"Workers",
+         "Support":"Support",
+         "Account":"Account"
+      },
+      "screen":{
+         "intro":{
+            "language":"Change Language",
+            "welcome":" Buy sell and discover",
+            "sell":"Sell anything you are selling",
+            "buy":"Search and buy item you are looking for",
+            "book":"Hire your Next handyman throught our service",
+            "GetStarted":"Get Started",
+            "ContinueGuest":"Continue As Guest",
+            "registerAsBusiness":"For Business Account"
+         },
+         "registration":{
+            "title":"Registration",
+            "subtitle":"Enter your Phone number to continue, we will send you OTP to verify",
+            "continue":"Continue"
+         },
+         "verification":{
+            "subtitle":"Enter the 4-digit code sent to you at",
+            "footerDescription":"If You Didn't Get code Click here to Resend",
+            "verify":"Verify",
+            "resend":"Resend",
+            "editTitle":"Edit Telephone Number",
+            "update":"Update"
+
+         },
+         "favorite":{
+            "title":"Favorite"
+            
+         },
+         "createProfile":{
+            "title":"Create Profile",
+            "firstName":"First Name",
+            "lastName":"Last Name",
+            "dob":"Date Of Birth",
+            "email":"Email",
+            "finished":"Finished",
+            "location":"Location",
+            "address":"Address",
+            "editTitle":"Edit Telephone Number",
+            "update":"Update"
+         },
+         "setupPin":{
+            "title":"Set Up Pin"
+         },
+         "home":{
+            "title":"Exchange Money",
+            "chargeFee":"Charge Fee",
+            "TotalChargeFee":"Total Charge Fee",
+            "CommissionIs":"Commission is",
+            "post":"Post",
+            "viewall":"View All"
+         },
+         "customerAccount":{
+            "YourAccounts":"Your Accounts",
+            "account":"account",
+            "YouSend":"You Send",
+            "AccountType":"Account Type",
+            "AccountNumber":"Account Number",
+            "SaveAccount":"Save Account"
+           
+
+         },
+         "transaction":{
+            "title":"Transactions",
+            "Total":"Total",
+            "account":"account",
+            "Detail":"Detail",
+            "AccountType":"Account Type",
+            "AccountNumber":"Account Number",
+            "SaveAccount":"Save Account"
+         },
+         "business":{
+            "city":"City",
+            "Total":"Total",
+            "address":"Address",
+            "searchCategory":"Search a Category",
+            "category":"Category",
+            "map":"Map",
+            "call":"Call",
+            "products":"Products",
+            "review":"Review"
+            
+         },
+         "profile":{
+            "title":"My Profile",
+            "update":"Update Basic Information",
+            "change":"Change Pin Code",
+            "Detail":"Detail",
+            "AccountType":"Account Type",
+            "AccountNumber":"Account Number",
+            "SaveAccount":"Save Account",
+            "feilds":{
+              "fullName":"fullName",
+              "email":"Email",
+              "location":"Location",
+              "address":"Address",
+              "picture":"Picture"
+            }
+         },
+         "worker":{
+            "title":"Handyman category",
+            "notFound":"No Handyman Found",
+            "listTitle":"List Handyman",
+            "profileTitle":"Profile",
+            "bookingNow":"Booking Now",
+            "salary":"Salary",
+            "rate":"Rate",
+            "experience":"Experience",
+            "gender":"Gender",
+            "age":"Age",
+            "resume":"Resume",
+            "about":"About",
+            "review":"Review",
+            "yourAddress":"Your Address",
+            "writeYourAddress":"Write Your Address",
+            "bookingDate":"Booking Date",
+            "save":"Save",
+            "booking":"Booking"
+
+         },
+         "search":{
+            "title":"Search",
+            "searchbar":"Search Item",
+            "sortBy":"Sort By",
+            "category":"Category",
+            "subCategory":"Sub Category",
+            "search":"Search",
+            "clearAll":"Clear All"
+
+         },
+         "product":{
+            "newTitle":"Create New Product",
+            "editTitle":"Edit Post",
+            "title":"Title",
+            "description":"Description",
+            "category":"Category",
+            "subcategory":"Sub Category",
+            "currency":"Currency",
+            "price":"Price",
+            "location":"Location",
+            "address":"Location Address",
+            "photos":"Photos",
+            "contactInformation":"Contact Information",
+            "contactName":"Contact Name",
+            "ContactEmail":"Contact Email",
+            "ContactTelephone":"Contact Telephone",
+            "deletePost":"Delete Post",
+            "payPostFee":"Pay Fee",
+            "time":"Time",
+            "sold":"Sold"
+         },
+         "post":{
+            "title":"My Post",
+            "description":"Description",
+            "category":"Category",
+            "subCategory":"Sub Category",
+            "currency":"Currency",
+            "price":"Price",
+            "address":"Location Address",
+            "photos":"Photos",
+            "contactInformation":"Contact Information",
+            "contactName":"Contact Name",
+            "ContactEmail":"Contact Email",
+            "ContactTelephone":"Contact Telephone",
+            "deletePost":"Delete Post",
+            "payPostFee":"Pay Post Fee",
+            "postads":"Post Ads",
+            "expireDate":"Expire Date",
+            "jobType":"Job Type",
+            "sallary":"Sallary",
+            "applyLink":"Apply Link"
+         },
+
+         "postAds":{
+            
+            "add":{
+               "button":"Save",
+               "title":"Post Ads"
+            },
+            "feilds":{
+               "title":"Title",
+               "description":"Description",
+               "category":"Category",
+               "subcategory":"Sub Category",
+               "currency":"Currency",
+               "price":"Price",
+               "location":"Location",
+               "address":"Address",
+               "photos":"Photos",
+               "gallery":"Images",
+               "contactInformation":"Contact Information",
+               "contactName":"Contact Name",
+               "contactEmail":"Contact Email",
+               "contactTelephone":"Contact Telephone",
+               "deletePost":"Delete Post",
+               "payPostFee":"Pay Post Fee",
+               "postads":"Post Ads",
+               "type":"Type",
+               "bed":"Bed",
+               "living":"living Room",
+               "toilet":"Toilets",
+               "size":"Property Size",
+               "mark":"Mark",
+               "model":"Model",
+               "millage":"Mile Age",
+               "condition":"Condition",
+               "expireDate":"Expire Date",
+               "jobType":"Job Type",
+               "sallary":"Sallary",
+               "applyLink":"Apply Link"
+
+            }
+         },
+         "payment":{
+            "title":"Payment Method",
+            "subscribeAsFree":"Subcribe as Free",
+            "successfully":"Successfully Paid",
+            "confirmPayment":"CONFIRM PAYMENT",
+            "paymentPhone":"Payment Phone"
+            
+
+         },
+         "feedback":{
+            "title":"Latest Review",
+            "rating":"Rating",
+            "yourFeedback":"Your Feedback",
+            "save":"Save",
+            "paymentPhone":"Payment Phone",
+            "newTitle":"New Feedback",
+            "create":"Create"
+
+
+         },
+         "coupon":{
+            "title":"Title",
+            "description":"Description",
+            "link":"Link"
+
+         },
+         "category":{
+            "title":"category List",
+            "description":"Description",
+            "link":"Link"
+
+         },
+         "privacy":{
+            "title":"Privacy Policy"
+         },
+         "support":{
+            "title":"Need Support ?"
+         },
+         "term":{
+            "title":"Term and Condition"
+         }
+      }
+    }
+  }

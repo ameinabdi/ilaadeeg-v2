@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127860581434",
+    "project_id": "Ilaadeeg-f98ab",
+    "storage_bucket": "Ilaadeeg-f98ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127860581434:android:8b94905e9162b97ee58103",
+        "android_client_info": {
+          "package_name": "com.iIaadeeg.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs7pgmXUufG_Bif-7uTU4okSQIy7hJbgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

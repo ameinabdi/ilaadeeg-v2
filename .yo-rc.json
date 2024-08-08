@@ -1,0 +1,63 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "oauth2",
+    "baseName": "Ilaadeegination",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-react-native",
+        "version": "4.3.0"
+      }
+    ],
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1681729709389,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": ["Supervisor"],
+    "entitySuffix": "",
+    "gradleEnterpriseHost": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.2.0",
+    "languages": [],
+    "lastLiquibaseTimestamp": 1681729769000,
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-react-native",
+        "version": "4.3.0"
+      }
+    ],
+    "packageFolder": "moe/Ilaadeeg/gov",
+    "packageName": "com.iIaadeeg.app",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactNative": {
+      "detox": true,
+      "reactNativeAppName": "Ilaadeeg"
+    },
+    "reactive": true,
+    "searchEngine": false,
+    "serverPort": "8080",
+    "serviceDiscoveryType": "consul",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": false,
+    "skipFakeData": false,
+    "skipServer": false,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress"],
+    "websocket": false,
+    "withAdminUi": true
+  }
+}

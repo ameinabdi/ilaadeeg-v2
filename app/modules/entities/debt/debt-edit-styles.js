@@ -1,0 +1,173 @@
+import { StyleSheet } from 'react-native';
+import { heightPercentageToDP as hp, widthPercentageToDP as wp} from 'react-native-responsive-screen';
+import {Colors, ApplicationStyles } from '../../../shared/themes';
+
+export default StyleSheet.create({
+    container: {
+        flex:1,
+        height:hp('100'),
+        backgroundColor: Colors.white,
+      },
+      header:{
+        paddingHorizontal:wp('2'),
+        paddingTop:hp('6'),
+        height:hp('13'),
+        flexDirection:'row',
+        backgroundColor:Colors.primary
+      },
+      haederTitle:{
+        fontSize:wp('4'),
+        color:Colors.white
+      },
+      content:{
+        flex:1,
+        backgroundColor:Colors.white,
+        padding:wp('2')
+      },
+      backbutton:{
+        width:wp('10'),
+        height:wp('8'),
+    
+      },
+      row:{
+          flex:1,
+          marginHorizontal:wp('1'),
+          marginVertical:wp('1')
+      },
+      col:{
+          flex:1,
+      },
+      label:{
+        marginVertical:wp('2'),
+        fontWeight:'500',
+        fontSize:16,
+        color:Colors.title
+      },
+      itemContainer:{
+          marginVertical:wp('1'),
+          height:hp('7'),
+          paddingLeft:wp('2'),
+          justifyContent:'center',
+      },
+      item:{
+          flexDirection:'row'
+      },
+      itemTextContainer:{
+        flex:1,
+        flexDirection:'column',
+        borderBottomColor:Colors.text,
+        paddingBottom:wp('2'),
+        marginLeft:wp('3'),
+        borderBottomWidth:wp('0.1'),
+      },
+      itemText:{
+          fontSize:18,
+          fontWeight:'500',
+          color:Colors.title
+      },
+      itemTelephone:{
+        fontSize:16,
+        fontWeight:'500',
+        marginTop:wp('2'),
+        color:Colors.text
+    },
+    input:{
+        flex:1,
+        backgroundColor:Colors.background,
+        height:hp('5'),
+        justifyContent:'center',
+        padding:wp('2'),
+        borderRadius:wp('1'),
+        
+    },
+    textInput:{
+        width:wp('90'),
+        fontSize:20,
+        fontWeight:'500',
+        color:Colors.title,
+    },
+    TextAreainput:{
+      flex:1,
+      backgroundColor:Colors.background,
+      justifyContent:'center',
+      padding:wp('2'),
+      borderRadius:wp('1'),
+      
+  },
+  textArea:{
+    fontSize:16,
+    fontWeight:'500',
+    color:Colors.title,
+  },
+  rowInput:{
+    width:wp('45%'),
+    backgroundColor:Colors.background,
+    height:hp('5%'),
+    alignItems:'flex-start',
+    alignContent:'flex-start',
+    justifyContent:'center',
+    alignSelf:'flex-start',
+    paddingHorizontal:wp('2%'),
+    paddingVertical:wp('3%'),
+    borderRadius:wp('1')
+},
+  inputDate:{
+    marginTop:hp('2'),
+    color:Colors.text,
+    fontSize:wp('4%'),
+    fontWeight:'500',
+    width:wp('30%'),
+
+},
+rowRemind:{
+  backgroundColor:Colors.background,
+  height:hp('6%'),
+  alignItems:'center',
+  alignContent:'flex-start',
+  justifyContent:'center',
+  alignSelf:'flex-start',
+  paddingHorizontal:wp('2%'),
+  paddingVertical:wp('2%'),
+  borderRadius:wp('1'),
+  marginHorizontal:wp('1'),
+  marginVertical:wp('3')
+},
+colLeftRemind:{
+ width:wp('75')
+},
+colRightRemind:{
+
+},
+titleRemind:{
+  color:Colors.title,
+  fontSize:wp('4%'),
+  fontWeight:'500',
+},
+textRemind:{
+  marginTop:wp('1'),
+  color:Colors.text,
+  fontSize:wp('3%'),
+  fontWeight:'500',
+},
+button:{
+  height:hp('6%'),
+  width:wp('95'),
+  alignSelf:'center',
+  justifyContent:'center',
+  alignItems:'center',
+  marginVertical:wp('4'),
+  marginHorizontal:wp('2'),
+  backgroundColor:Colors.primary,
+  borderRadius:wp('1'),
+},
+buttonIcon:{
+  height:wp('5%'),
+  width:wp('5%'),
+  tintColor:Colors.white,
+  marginRight:wp('5%')
+},
+buttonText:{
+  fontSize:18,
+  color:Colors.white,
+}
+});

@@ -1,0 +1,593 @@
+import { StyleSheet } from 'react-native';
+import { heightPercentageToDP as hp, widthPercentageToDP as wp} from 'react-native-responsive-screen';
+
+import { Metrics, ApplicationStyles, Colors } from '../../../shared/themes';
+
+export default StyleSheet.create({
+  container: {
+    flex:1,
+    height:hp('100'),
+    backgroundColor: Colors.background,
+  },
+  header:{
+    paddingHorizontal:wp('2'),
+    paddingTop:hp('6'),
+    height:hp('13'),
+    flexDirection:'row',
+    backgroundColor:Colors.primary
+  },
+  haederTitle:{
+    fontSize:wp('4'),
+    color:Colors.white
+  },
+  acceptAction:{
+
+  },
+  acceptText:{
+    fontSize:16,
+    color:Colors.white
+  },
+  content:{
+    flex:1,
+    backgroundColor:Colors.background,
+    padding:wp('2')
+  },
+  backbutton:{
+    width:wp('10'),
+    height:wp('8'),
+
+  },
+  fullname:{
+    margin:wp('2'),
+    fontSize:28,
+    fontWeight:'600'
+  },
+  actionView:{
+    marginVertical:wp('2'),
+    marginHorizontal:wp('1'),
+    paddingBottom:wp('2'),
+    height:hp('22'),
+    width:wp('94'),
+    borderRadius:wp('2'),
+    backgroundColor:Colors.white
+  },
+  actionMineHeader:{
+    backgroundColor:Colors.secondary,
+    width:wp('20'),
+    height:hp('2.5'),
+    justifyContent:'center',
+    alignItems:'center',
+    borderTopLeftRadius:wp('2'),
+    borderBottomRightRadius:wp('4')
+  },
+  actionMineHeaderText:{
+    color:Colors.white,
+    fontSize:14,
+    fontWeight:'600'
+  },
+  actionContent:{
+    flex:1,
+    justifyContent:'center',
+    margin:wp('2')
+  },
+  actionContentText:{
+    fontWeight:'bold',
+    fontSize:35
+  },
+  actionFooter:{
+    flex:1,
+    justifyContent:'center',
+    margin:wp('2')
+  },
+  detail:{
+    marginTop:hp('1'),
+    padding:wp('2'),
+    width:wp('100'),
+    flexDirection:'row',
+    height:hp('5'),
+    backgroundColor:Colors.background
+  },
+  detailLeft:{
+      width:wp('20'),
+      height:hp('4'),
+      borderRadius:wp('1'),
+      justifyContent:'center',
+      alignItems:'center',
+      backgroundColor:Colors.primary
+
+  },
+  detailLeftTitle:{
+      color:Colors.white,
+      fontWeight:'300',
+      fontSize:wp('4')
+  },
+  detailRight:{
+    width:wp('20'),
+    height:hp('4'),
+    borderRadius:wp('1'),
+    justifyContent:'center',
+    alignItems:'center',
+    backgroundColor:Colors.secondary
+
+},
+detailRightTitle:{
+    color:Colors.white,
+    fontWeight:'300',
+    fontSize:wp('3.5')
+},
+card:{  
+    flex:1,
+    backgroundColor:Colors.background,
+    margin:wp('2'),
+    borderRadius:wp('2'),
+    justifyContent:'center',
+    alignItems:'center',
+    
+  },
+  cardfooter:{  
+    flex:1,
+    backgroundColor:Colors.white,
+    marginTop:wp('0'),
+    padding:hp('5'),
+    marginHorizontal:wp('2'),
+    borderRadius:wp('2'),
+    justifyContent:'center',
+    alignItems:'center'
+    
+  },
+  menu:{
+      padding:wp('3'),
+      marginTop:hp('2'),
+      width:wp('100'),
+      flexDirection:'row',
+      height:hp('10'),
+      alignItems:'center',
+      justifyContent:'center',
+  },
+  left:{
+      width:wp('30'),
+      flexDirection:'column'
+  },
+  leftTitle:{
+      fontSize:wp('3.5'),
+      fontWeight:'300',
+      textAlign:'left',
+      color:Colors.text,
+      marginLeft:wp('1'),
+      marginTop:wp('2')
+  },
+  leftText:{
+    padding:wp('1'),
+    fontSize:wp('5'),
+    fontWeight:'600',
+    textAlign:'left',
+    color:Colors.title,
+  },
+  right:{
+    width:wp('30'),
+    flexDirection:'column',
+    alignItems:'flex-start',
+  },
+  
+  rightTitle:{
+    fontSize:wp('3.5'),
+    fontWeight:'300',
+    textAlign:'left',
+    color:Colors.text,
+    marginRight:wp('1'),
+  },
+  rightText:{
+    padding:wp('1'),
+    fontSize:wp('5'),
+    fontWeight:'600',
+    textAlign:'left',
+    color:Colors.title,
+    marginRight:wp('1'),
+  },
+  center:{
+    width:wp('25'),
+    alignItems:'flex-start',
+    justifyContent:'center'
+  },
+  centerTitle:{
+    fontSize:wp('3.5'),
+    fontWeight:'300',
+    color:Colors.text,
+    marginLeft:wp('2'),
+    marginTop:wp('2')
+},
+centerText:{
+  padding:wp('1'),
+  fontSize:wp('5'),
+  fontWeight:'600',
+  textAlign:'left',
+  color:Colors.title,
+},
+  centerborder:{
+    marginTop:hp('3'),
+    backgroundColor:Colors.primary,
+    width:wp('50'),
+    height:hp('0.2'),
+    alignItems:'center',
+    justifyContent:'center'
+  },
+  duration:{
+    backgroundColor:Colors.primary,
+    height:hp('3'),
+    paddingHorizontal:wp('3'),
+    paddingVertical:wp('1'),
+    color:Colors.white,
+    borderRadius:wp('2')
+
+  },
+  durationTitle:{
+    color:Colors.white,
+  },
+  seatView:{
+      flex:1,
+      marginVertical:hp('4')
+  },
+  seatcontent:{
+      flex:1,
+      justifyContent:'flex-start',
+      alignItems:'center'
+  },
+  seat:{
+      width:wp('17'),
+      height:wp('17'),
+      borderRadius:wp('1'),
+      justifyContent:'center',
+      alignItems:'center',
+      marginHorizontal:wp('5'),
+      marginVertical:wp('6'),
+      backgroundColor:Colors.third
+  },
+  seatTitle:{
+      fontSize:wp('4'),
+      color:Colors.white,
+      fontWeight:'400'
+
+  },
+  selectedSeat:{
+    width:wp('17'),
+    height:wp('17'),
+    borderRadius:wp('1'),
+    justifyContent:'center',
+    alignItems:'center',
+    marginHorizontal:wp('5'),
+    marginVertical:wp('6'),
+    backgroundColor:Colors.primary
+},
+ 
+  buttonCard:{
+    width:wp('5'),
+    height:hp('2.5'),
+    marginHorizontal:wp('1'),
+    backgroundColor:Colors.primary,
+    borderRadius:wp('0.5')
+
+  },
+  buttonTitle:{
+    padding:wp('1'),
+    borderRadius:hp('10'),
+    justifyContent:'center',
+    alignItems:'center',
+    color:Colors.text,
+    fontSize:hp('1.5'),
+    fontWeight:'500'
+  },
+  badge:{
+    paddingVertical:wp('1'),
+    paddingHorizontal:wp('2'),
+    borderRadius:hp('0.5'),
+    justifyContent:'center',
+    alignItems:'center',
+    color:Colors.white,
+    backgroundColor:Colors.primary
+  },
+  cardTitle:{
+    color:Colors.white,
+  },
+ 
+  icon:{
+      width:wp('8'),
+      height:wp('8'),
+      tintColor:Colors.primary
+  },
+  price:{
+    color:Colors.primary,
+    fontWeight:'bold',
+    fontSize:wp('5')
+  },
+  footer:{
+      flexDirection:'column',
+      height:hp('15'),
+  },
+  footerTitle:{
+      color:Colors.title,
+      fontWeight:'400',
+      fontSize:wp('3'),
+      marginLeft:wp('4'),
+  },
+  footerText:{
+    color:Colors.text,
+    fontWeight:'700',
+    fontSize:wp('3'),
+    marginRight:wp('4'),
+    textAlign:'right',
+  },
+  button:{
+    alignSelf:'center',
+    alignItems:'center',
+    flexDirection:'row',
+    justifyContent:'center',
+    paddingTop:1,
+    width: wp('95%'),
+    height:hp('5%'),
+    backgroundColor:Colors.primary,
+    color: Colors.primary,
+    borderRadius:wp('1')
+   },
+   buttonText: {
+    color: Colors.white,
+    fontSize: 16,
+  },
+  steering:{
+      tintColor:Colors.white,
+      width:wp('15'),
+      height:wp('15')
+  },
+  actionFooter:{
+    flex:1,
+    flexDirection:'row',
+    justifyContent:'space-around',
+    alignItems:'center',
+  },
+  actionMenu:{
+    width:wp('13'),
+    height:wp('13'),
+    backgroundColor:Colors.primary,
+    justifyContent:'center',
+    alignItems:'center',
+    borderRadius:wp('100')
+
+  },
+  menuIcon:{
+    width:wp('6'),
+    height:wp('6'),
+    tintColor:Colors.white
+
+  },
+  action:{
+    flex:1,
+    flexDirection:'column',
+    justifyContent:'center',
+    alignItems:'center'
+  },
+  actionTitle:{
+    marginTop:wp('1'),
+    fontSize:16,
+    color:Colors.primary,
+    alignSelf:'center'
+  },
+  paymentView:{
+    flex:1,
+    backgroundColor:Colors.white,
+    marginVertical:wp('2'),
+    marginHorizontal:wp('1'),
+    padding:wp('2')
+  },
+  paymentViewTitle:{
+    fontSize:18,
+    marginVertical:wp('2'),
+    marginHorizontal:wp('1'),
+    fontWeight:'500'
+  },
+  modal:{
+    justifyContent: 'flex-end',
+    margin: 0,
+  },
+  modalContainer:{
+    height:hp('70%'),
+    borderTopLeftRadius:hp('1'),
+    borderTopRightRadius:hp('1'),
+    backgroundColor:Colors.white
+  },
+  modalHeader:{
+    flexDirection:'row',
+    padding:hp('2'),
+    justifyContent:'space-between',
+
+  },
+  modelHeaderTitle:{
+    color:Colors.primary,
+    fontSize:wp('5%'),
+    fontWeight:'500'
+  },
+  modalContent:{
+   flex:1, 
+   justifyContent:'flex-start',
+  },
+  flatlistcard:{
+    marginTop:hp('1'),
+    width:wp('90'),
+    flexDirection:'row',
+    flex:1,
+    paddingVertical:hp('1'),
+    borderRadius:wp('2'),
+    backgroundColor:Colors.background
+  },
+  left:{
+    width:wp('15'),
+    paddingLeft:wp('1'),
+    flexDirection:'column',
+    alignItems:'flex-start',
+    justifyContent:'center',
+  },
+  iconView:{
+    width:wp('15'),
+    height:wp('15'),
+    alignItems:'center',
+    justifyContent:'center',
+    backgroundColor:Colors.primaryBg,
+    borderRadius:wp('1000')
+  },
+  icon:{
+    width:wp('6'),
+    height:wp('6'),
+    tintColor:Colors.primary
+  },
+  day:{
+    fontSize:wp('6'),
+    fontWeight:'bold',
+    color:Colors.white
+  },
+  date:{
+    fontSize:wp('4'),
+    fontWeight:'400',
+    color:Colors.white
+  },
+  center:{
+    width:wp('85'),
+    flexDirection:'row',
+    alignItems:'flex-start',
+    justifyContent:'space-between',
+    paddingHorizontal:wp('2')
+  },
+  
+  title:{
+    fontSize:wp('4'),
+    marginTop:hp('2'),
+    color:Colors.title
+  },
+  type:{
+    marginTop:hp('1'),
+
+    fontSize:wp('3'),
+    color:Colors.text
+  },
+  text:{
+    marginTop:hp('1'),
+    fontSize:wp('3'),
+    color:Colors.text
+  },
+  lendTitle:{
+    fontSize:wp('4'),
+    marginTop:hp('2'),
+    color:Colors.primary
+  },
+  borrowTitle:{
+    fontSize:wp('4'),
+    marginTop:hp('2'),
+    color:Colors.secondary
+  },
+  right:{
+    width:wp('20'),
+    flexDirection:'row',
+    justifyContent:'flex-start'
+  },
+  detail:{
+    marginTop:hp('1'),
+    padding:wp('2'),
+    width:wp('100'),
+    flexDirection:'row',
+    height:hp('5'),
+    backgroundColor:Colors.background
+  },
+  detailLeft:{
+      width:wp('20'),
+      height:hp('4'),
+      borderRadius:wp('1'),
+      justifyContent:'center',
+      alignItems:'center',
+      backgroundColor:Colors.primary
+
+  },
+  detailLeftTitle:{
+      color:Colors.white,
+      fontWeight:'300',
+      fontSize:wp('4')
+  },
+  detailRight:{
+    width:wp('20'),
+    height:hp('4'),
+    borderRadius:wp('1'),
+    justifyContent:'center',
+    alignItems:'center',
+    backgroundColor:Colors.secondary
+
+},
+detailRightTitle:{
+    color:Colors.white,
+    fontWeight:'300',
+    fontSize:wp('3.5')
+},
+centerView:{
+  width:wp('55'),
+  marginLeft:wp('2'),
+  flexDirection:'row',
+  alignItems:'flex-start',
+  justifyContent:'flex-start',
+  paddingHorizontal:wp('2'),
+},
+statusView:{
+  marginLeft:wp('-5')
+},
+chipContainer:{
+  marginTop:wp('3'),
+
+
+},
+chip:{
+  width: 24, 
+  height: 24
+
+},
+swipeLeft:{
+  flex:1,
+  marginTop:hp('1'),
+  backgroundColor:Colors.white,
+  justifyContent:'center',
+  alignItems:'center'
+},
+deleteButton:{
+  marginVertical:wp('4'),
+  marginHorizontal:wp('1'),
+  borderRadius:wp('3'),
+  backgroundColor:Colors.bloodOrange
+},
+
+iconButton:{
+  width:wp('6'),
+  height:wp('6'),
+  tintColor:Colors.white
+},
+
+swipeRight:{
+  flex:1,
+  marginTop:hp('1'),
+  backgroundColor:Colors.white,
+  justifyContent:'center',
+  alignItems:'center'
+},
+acceptButton:{
+  marginTop:wp('4'),
+  marginBottom:wp('1'),
+  marginHorizontal:wp('1'),
+  borderRadius:wp('1'),
+  flex:1,
+  backgroundColor:Colors.green
+},
+rejectButton:{
+  marginTop:wp('1'),
+  marginBottom:wp('4'),
+  marginHorizontal:wp('1'),
+  flex:1,
+  borderRadius:wp('1'),
+  backgroundColor:Colors.bloodOrange
+},
+textButton:{
+  fontSize:12,
+  color:Colors.white
+}
+});

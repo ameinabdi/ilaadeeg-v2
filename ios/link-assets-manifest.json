@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Br-Omny/BR-Omny-Light.ttf",
+      "sha1": "f0795d6ad7d19291d50533514bb18ed5a7be7dfa"
+    },
+    {
+      "path": "assets/fonts/Br-Omny/BR-Omny-Medium.ttf",
+      "sha1": "803f8fd26f69c1da916b1d6b4669e539d8f7f2dd"
+    },
+    {
+      "path": "assets/fonts/Br-Omny/BR-Omny-Regular.ttf",
+      "sha1": "7df06fa824d5c56ae9b84e12308ef796a8f7059a"
+    },
+    {
+      "path": "assets/fonts/Br-Omny/BR-Omny-Semi-Bold.ttf",
+      "sha1": "70d66aca316b6e899a0f87c312f03e21b5308cd1"
+    },
+    {
+      "path": "assets/fonts/Br-Omny/BR-Omny-Thin-Italic.ttf",
+      "sha1": "90c5ad315c5c8a0259c91e7f98b7b1398e79cf06"
+    },
+    {
+      "path": "assets/fonts/Br-Omny/BR-Omny-Thin.ttf",
+      "sha1": "09f1ba4eb1b67764ffeb79bfd90283025c319c2d"
+    }
+  ]
+}
