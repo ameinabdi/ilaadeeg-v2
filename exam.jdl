@@ -3,7 +3,7 @@ application {
     baseName Ilaadeegination
     applicationType monolith
     authenticationType oauth2
-    packageName com.iIaadeeg.app
+    packageName com.ilaadeeg.app
     prodDatabaseType postgresql
     testFrameworks [cypress]
     reactive true

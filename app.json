@@ -19,14 +19,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.iIaadeeg.app"
+      "bundleIdentifier": "com.ilaadeeg.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.iIaadeeg.app"
+      "package": "com.ilaadeeg.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"

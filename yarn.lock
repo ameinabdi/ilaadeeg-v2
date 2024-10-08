@@ -3552,6 +3552,11 @@
   "resolved" "https://registry.npmjs.org/@react-native-firebase/messaging/-/messaging-17.5.0.tgz"
   "version" "17.5.0"
 
+"@react-native-google-signin/google-signin@^12.1.0":
+  "integrity" "sha512-Vn2zXCAz0Vh43xEtFebqd0wGvQWXGPkTZvfff/3V7+5BQKR7nL52mlry10llCLNRiVDDz0oWoBGETifpBz7W8A=="
+  "resolved" "https://registry.npmjs.org/@react-native-google-signin/google-signin/-/google-signin-12.1.0.tgz"
+  "version" "12.1.0"
+
 "@react-native-masked-view/masked-view@0.2.7":
   "integrity" "sha512-ME+egr2l25rkcIJjFoXQUWWlfkJMY2KHdhf/df2ZXbVdVx5HIeTPpJpjKTZOPttLFtmrtHpzsqK1/dmu8F755g=="
   "resolved" "https://registry.npmjs.org/@react-native-masked-view/masked-view/-/masked-view-0.2.7.tgz"

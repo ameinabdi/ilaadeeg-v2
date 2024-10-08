@@ -18,18 +18,20 @@ import Toast from 'react-native-toast-message';
 import ModelLoadingComponent from '../../shared/components/loading/model-loading-component';
 import '../../../i18n';
 import {useTranslation} from 'react-i18next';
+import OTPTextInput from 'react-native-otp-textinput';
 
 
 function verificationScreen(props) {
   const { navigation, account, fetching,updating,errorUpdating,accountFetching, updateCustomer,errorResend, fetchingResend, ResendCode,resendOpt, error,updateTelephone, VerifyCustomer, fetchingAccount, fetchingAuthInfo, authInfoError } = props;
   // setup error state for displaying error messages
-  const [verificationCode, setVerificationCode] = React.useState('');
+  const [verificationCode, setVerificationCode] = React.useState(null);
   const [loginError, setLoginError] = React.useState('');
   const [isModalVisible, setModalVisible] =React.useState(false);
   const [value, setValue] = React.useState(account?.phoneNumber?.slice(4));
   const [formattedValue, setFormattedValue] = React.useState("");
   const [showModal, setShowModal] = React.useState(false);
   const {t, i18n} = useTranslation();
+  let otpInput = React.useRef(null);
 
   React.useEffect(() => {
     if (account.verified) {
@@ -206,16 +208,15 @@ function verificationScreen(props) {
             </CardItem>
             <CardItem>
               <Body style={styles.row}>
-              <OTPInputView
-                style={styles.textInput}
-                pinCount={4}
-                autoFocusOnLoad
-                code={verificationCode} 
-                keyboardType="number-pad"
-                onCodeChanged = {code => { setVerificationCode(code)}}
-                codeInputFieldStyle={styles.underlineStyleBase}
-                codeInputHighlightStyle={styles.underlineStyleHighLighted}
-            />
+            <OTPTextInput 
+            ref={e => (otpInput = e)} 
+            inputCount={4}
+            tintColor={Colors.primary}
+            offTintColor={Colors.secondary}
+            handleTextChange={(text)=>(setVerificationCode(text))}
+            containerStyle={styles.underlineStyleHighLighted}
+            textInputStyle={styles.underlineStyleBase}
+          />
               </Body>
             </CardItem>
              <CardItem>

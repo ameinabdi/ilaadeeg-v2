@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "127860581434",
-    "project_id": "Ilaadeeg-f98ab",
-    "storage_bucket": "Ilaadeeg-f98ab.appspot.com"
+    "project_number": "896767666874",
+    "project_id": "ilaadeeg-ff658",
+    "storage_bucket": "ilaadeeg-ff658.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:127860581434:android:8b94905e9162b97ee58103",
+        "mobilesdk_app_id": "1:896767666874:android:3711f020993ccbaa58b083",
         "android_client_info": {
-          "package_name": "com.iIaadeeg.app"
+          "package_name": "com.ilaadeeg.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "896767666874-4mc8os2ok7poh8aqasmgahqjk5sao7g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDs7pgmXUufG_Bif-7uTU4okSQIy7hJbgc"
+          "current_key": "AIzaSyD99CVPCksm0ug63iX0crReWvOH4IOikz4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896767666874-4mc8os2ok7poh8aqasmgahqjk5sao7g2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "896767666874-hlpdc0ni4fdndu9rg5oen5kim3mg9d2q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ilaadeeg.app",
+                "app_store_id": "1628778092"
+              }
+            }
+          ]
         }
       }
     }

@@ -14,10 +14,10 @@ import '../../../i18n';
 import { useTranslation } from 'react-i18next';
 import LoginActions from './login.reducer'
 import Icon from 'react-native-vector-icons/AntDesign';
-// import {
-//   GoogleSignin,
-//   statusCodes,
-// } from '@react-native-google-signin/google-signin';
+import {
+  GoogleSignin,
+  statusCodes,
+} from '@react-native-google-signin/google-signin';
 // import { LoginManager, AccessToken, GraphRequest, GraphRequestManager } from 'react-native-fbsdk';
 
 
@@ -93,101 +93,91 @@ function LoginScreen(props) {
     }
   }
 
-//   const getInfoFromToken = (token) => {
-//     const PROFILE_REQUEST_PARAMS = {
-//       fields: {
-//         string: 'id,email,name,first_name,last_name',
-//       },
-//     };
-//     const profileRequest = new GraphRequest(
-//       '/me',
-//       { token, parameters: PROFILE_REQUEST_PARAMS },
-//       (error, result) => {
-//         if (error) {
-//           Toast.show({
-//             type: 'error',
-//             position: 'bottom',
-//             text1: 'Error',
-//             text2: error,
-//             visibilityTime: 4000,
-//             autoHide: true,
-//             topOffset: 30,
-//             bottomOffset: 40,
-//           });
-//         } else {
-//           signUpWithSocail({ email: result?.email, fullName: result?.name });
-//         }
-//       },
-//     );
-//     new GraphRequestManager().addRequest(profileRequest).start();
-//   };
+  const getInfoFromToken = (token) => {
+    const PROFILE_REQUEST_PARAMS = {
+      fields: {
+        string: 'id,email,name,first_name,last_name',
+      },
+    };
+    const profileRequest = new GraphRequest(
+      '/me',
+      { token, parameters: PROFILE_REQUEST_PARAMS },
+      (error, result) => {
+        if (error) {
+          Toast.show({
+            type: 'error',
+            position: 'bottom',
+            text1: 'Error',
+            text2: error,
+            visibilityTime: 4000,
+            autoHide: true,
+            topOffset: 30,
+            bottomOffset: 40,
+          });
+        } else {
+          signUpWithSocail({ email: result?.email, fullName: result?.name });
+        }
+      },
+    );
+    new GraphRequestManager().addRequest(profileRequest).start();
+  };
 
-//   const _signInFacebook = async () => {
-//     try {
+  const _signInFacebook = async () => {
+    try {
 
-//       const result = await LoginManager.logInWithPermissions(['public_profile', 'email']);
-//       if (result.isCancelled) {
-//         return;
-//       }
+      const result = await LoginManager.logInWithPermissions(['public_profile', 'email']);
+      if (result.isCancelled) {
+        return;
+      }
 
-//       const accessToken = await AccessToken.getCurrentAccessToken();
-//       if (!accessToken) {
-//         return;
-//       }
-//       getInfoFromToken(accessToken.accessToken);
-//     } catch (error) {
-//       Toast.show({
-//         type: 'error',
-//         position: 'bottom',
-//         text1: 'Error',
-//         text2: error,
-//         visibilityTime: 4000,
-//         autoHide: true,
-//         topOffset: 30,
-//         bottomOffset: 40,
-//       });
-//     }
-//   };
+      const accessToken = await AccessToken.getCurrentAccessToken();
+      if (!accessToken) {
+        return;
+      }
+      getInfoFromToken(accessToken.accessToken);
+    } catch (error) {
+      Toast.show({
+        type: 'error',
+        position: 'bottom',
+        text1: 'Error',
+        text2: error,
+        visibilityTime: 4000,
+        autoHide: true,
+        topOffset: 30,
+        bottomOffset: 40,
+      });
+    }
+  };
  
-//  const signIn = async () => {
-//     try {
-//       await GoogleSignin.configure({
-//         webClientId: '275218892303-i89p1t6r8scr5343f4n4c0d18ve3jk5e.apps.googleusercontent.com', 
-//       })
+ const signIn = async () => {
+    try {
+     
+      GoogleSignin.configure(
+        {
+          //webClientId is required if you need offline access
+          offlineAccess: true,
+          webClientId:'275218892303-ticngk9sdtem42keelcenf6fpsdivnq7.apps.googleusercontent.com',
+          androidClientId: '275218892303-nurj24j9jcil6b0fs5shqe9ar7dk34mo.apps.googleusercontent.com',
+          scopes: ['profile', 'email']
+        });
+      await GoogleSignin.hasPlayServices();
+      const userInfo = await GoogleSignin.signIn();
+      signUpWithSocail({ email: userInfo?.user?.email, fullName: userInfo?.user?.name });
+    } catch (error) {
+      Toast.show({
+            type: 'error',
+            position: 'bottom',
+            text1: 'Error',
+            text2: error,
+            visibilityTime: 4000,
+            autoHide: true,
+            topOffset: 30,
+            bottomOffset: 40,
+          });
+    }
+  };
 
-//       await GoogleSignin.hasPlayServices();
-//       const userInfo = await GoogleSignin.signIn();
-//       console.tron.log('yeeeee',userInfo)
-//       // signUpWithSocail({ email: userInfo?.user?.email, fullName: userInfo?.user?.name });
-//     } catch (error) {
-//       console.tron.log('error',error)
-      
-//     }
-//   };
 
-  // const _signIn = async () => {
-
-  //   try {
-  //     GoogleSignin.configure();
-
-  //     await GoogleSignin.hasPlayServices();
-  //     const userInfo = await GoogleSignin.signIn();
-
-  //     signUpWithSocail({ email: userInfo?.user?.email, fullName: userInfo?.user?.name });
-  //   } catch (error) {
-  //     if (error) {
-  //       switch (error.code) {
-  //         case statusCodes.SIGN_IN_CANCELLED:
-  //           break;
-  //         case statusCodes.IN_PROGRESS:
-  //           break;
-  //         case statusCodes.PLAY_SERVICES_NOT_AVAILABLE:
-  //           break;
-  //         default:
-  //       }
-  //     }
-  //   }
-  // };
 
   if (fetching && showModal) {
     return (
@@ -249,7 +239,16 @@ function LoginScreen(props) {
             </TouchableOpacity>
         }
         <Text style={styles.textOr}>Or continue with</Text>
-   
+        <View style={styles.row}>
+          <TouchableOpacity style={styles.socailButton} onPress={signIn}>
+            <Image source={Images.google} style={styles.socailButtonIcon} />
+            <Text style={styles.socailButtonText}>Google</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.socailButton} onPress={_signInFacebook}>
+            <Image source={Images.facebook} style={styles.socailButtonIcon} />
+            <Text style={styles.socailButtonText}>Facebook</Text>
+          </TouchableOpacity>
+        </View>
       </SafeAreaView>
     </View>
   );

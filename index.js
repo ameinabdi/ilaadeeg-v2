@@ -59,7 +59,7 @@ PushNotification.configure({
 
   PushNotification.createChannel(
     {
-      channelId: "com.iIaadeeg.app", // (required)
+      channelId: "com.ilaadeeg.app", // (required)
       channelName: "iIaadeeg", // (required)
       channelDescription: "A channel to categorise your notifications", // (optional) default: undefined.
       playSound: true, // (optional) default: true

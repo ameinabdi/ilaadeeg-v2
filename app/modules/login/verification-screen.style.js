@@ -54,7 +54,8 @@ export default StyleSheet.create({
    marginBottom:10,
   },
   row:{
-    flexDirection:'row'
+    flexDirection:'row',
+    justifyContent:'center'
   },
   title:{
     color:Colors.primary,

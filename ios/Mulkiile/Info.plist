@@ -26,7 +26,7 @@
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>Ilaadeeg</string>
-				<string>com.iIaadeeg.app</string>
+				<string>com.ilaadeeg.app</string>
 			</array>
 		</dict>
 	</array>

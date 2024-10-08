@@ -1,4 +1,4 @@
-package com.iIaadeeg.app;
+package com.ilaadeeg.app;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
